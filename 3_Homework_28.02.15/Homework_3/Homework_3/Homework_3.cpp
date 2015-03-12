@@ -26,9 +26,7 @@ private:
 		delete[] temp_array;
 	};
 public:
-	stack_int() {
-		top = 0;
-		size = 100;
+	stack_int() : top(0), prod(1), first_zero_pos(0), size(100) {
 		array = new int[size];
 	}
 
@@ -70,10 +68,12 @@ public:
 	}
 
 	long long product() {
-		if (top > first_zero_pos)
+		if (top > first_zero_pos) {
 			return 0;
-		else
+		}
+		else {
 			return prod;
+		}
 	}
 };
 
