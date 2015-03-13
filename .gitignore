@@ -1,0 +1,8 @@
+[Dd]bug/
+[Rr]elease/
+[Bb]in/
+obj/
+*.suo
+*.user
+*.orig
+*.vspx
