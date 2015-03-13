@@ -1,6 +1,6 @@
-*/[Dd]bug/
-*/[Rr]elease/
-*/[Bb]in/
+**/[Dd]bug/
+**/[Rr]elease/
+**/[Bb]in/
 *.suo
 *.user
 *.orig
