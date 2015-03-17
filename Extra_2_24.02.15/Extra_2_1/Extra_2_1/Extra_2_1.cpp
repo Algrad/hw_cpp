@@ -21,8 +21,10 @@ int get_nearest(const int* arr, size_t size, int x) {
 		}
 		
 	}
-	if ( abs(arr[r - 1] - x) < abs(arr[r] - x) ) {
-		return arr[r - 1];
+
+	int near = abs(r - 1);
+	if ( abs(arr[near] - x) < abs(arr[r] - x) ) {
+		return arr[near];
 	}
 	else {
 		return arr[r];
